@@ -35,7 +35,7 @@ div#content {
     min-height:800px;
 }
 #form-content {
-    margin-left: 3%;
+    /* margin-left: 3%; */
     background-color: pink;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -44,4 +44,25 @@ ul {
     list-style-type: none;
     margin-left: 5%;
     margin-top: -3.5%;
+}
+@media all and (max-width: 640px) {
+    .flex, #page {
+        flex-direction: column;
+    }
+    .flex > #left-nav, .flex > #content, .flex > #right-nav {
+        order: 0;
+    }
+    /* #content {
+        order: 1;
+    }
+    #left-nav {
+        order: 2;
+    }
+    #right-nav {
+        order: 3;
+    } */
+    #left-nav, #right-nav, #header, #footer {
+        min-height: 50px;
+        max-height: 50px;
+    }
 }
