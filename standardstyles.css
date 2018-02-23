@@ -52,15 +52,6 @@ ul {
     .flex > #left-nav, .flex > #content, .flex > #right-nav {
         order: 0;
     }
-    /* #content {
-        order: 1;
-    }
-    #left-nav {
-        order: 2;
-    }
-    #right-nav {
-        order: 3;
-    } */
     #left-nav, #right-nav, #header, #footer {
         min-height: 50px;
         max-height: 50px;
