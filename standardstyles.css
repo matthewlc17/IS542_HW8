@@ -1,0 +1,47 @@
+body {
+    font-family: sans-serif;
+}
+
+div#header {
+    background-color: #ffd0d0;
+    height: 100px;
+}
+
+div#footer {
+    background-color: #d0ffd0;
+    clear: both;
+    height: 75px;
+}
+
+div#left-nav {
+    background-color: #ffffd0;
+    flex: 15%;
+    order: 1;
+}
+
+div#right-nav {
+    background-color: #d0ffff;
+    flex: 15%;
+    order: 3;
+}
+
+div#content {
+    background-color: #d0d0ff;
+    flex: 70%;
+    order: 2;
+}
+.flex {
+    display: flex;
+    min-height:800px;
+}
+#form-content {
+    margin-left: 3%;
+    background-color: pink;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+ul {
+    list-style-type: none;
+    margin-left: 5%;
+    margin-top: -3.5%;
+}
